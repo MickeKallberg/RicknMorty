@@ -5,10 +5,13 @@ class CharCard extends Component {
         super(props);
     }
 
-    render() {
-        return (
-            <div></div>
 
+    render() {
+        const charData = this.props.charData
+        
+        return (
+           
+            <div> {console.log(charData)}</div>
         );
     }
 }
